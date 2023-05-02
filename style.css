@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'Avenir Bold';
+  src: url('fonts/AvenirNextCyr-Heavy.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  }
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('fonts/AvenirNextCyr-Demi.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+body {
+  font-family: 'Avenir Bold', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #F1F1F1;
+}
+
+h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+body .bold {
+  font-family: "Avenir", sans-serif;
+  text-shadow: 1cm;
+  font-weight: bold;
+}
